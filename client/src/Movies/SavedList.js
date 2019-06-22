@@ -21,7 +21,6 @@ import {Link, NavLink} from 'react-router-dom'
 // }
 
 const SavedList = props => {
-  console.log(props.list);
   return (
     <div className="saved-list">
       <h3>Saved Movies:</h3>
