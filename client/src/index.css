@@ -16,6 +16,10 @@ body {
   margin: 1rem auto;
 }
 
+.movie-card a {
+  text-decoration: none;
+}
+
 .movie-director {
   padding: 4px 0;
   font-size: 0.8rem;
@@ -32,6 +36,7 @@ body {
   margin: 1rem auto;
   width: 75%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -40,19 +45,31 @@ body {
   margin-right: 10px;
 }
 
+.saved-list a {
+  text-decoration: none;
+  color: navy;
+}
+
+.saved-list a.active {
+  color: ORANGERED;
+}
+
 .saved-movie {
   margin: 0 10px;
 }
+
 .saved-active {
   color: blue;
   border: 1px solid grey;
   padding: 5px;
 }
+
 .save-wrapper {
   position: relative;
   width: 75%;
   margin: 1rem auto;
 }
+
 .save-button {
   position: absolute;
   top: 25px;
@@ -61,6 +78,7 @@ body {
   padding: 5px 10px;
   background-color: lightseagreen;
 }
+
 .save-button:hover {
   background-color: green;
   color: white;
